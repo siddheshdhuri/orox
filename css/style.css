@@ -354,7 +354,7 @@ i:before {
 .banner_inner_text {
   padding-top: 200px;
   position: relative;
-  padding-bottom: 95px;
+  padding-bottom: 20px;
 }
 
 .banner_inner_text:before {

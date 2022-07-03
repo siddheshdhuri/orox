@@ -1252,7 +1252,7 @@ i:before {
   padding-top: 85px;
   float: right;
   width: 46%;
-  padding-left: 130px;
+  padding-left: 0px; /* was 130px */
 }
 
 /* End Best 3d Area css

@@ -25,6 +25,29 @@
         <link href="css/style.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
 
+        <!-- Cookie Banner stylesheet -->
+        <link href="css/cookiebanner.css" rel="stylesheet">
+
+        <!-- START Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JRL20ZXX9E"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-JRL20ZXX9E');
+        </script>
+        <!-- END Global site tag (gtag.js) - Google Analytics -->
+
+        <!-- START Close banner JavaScript -->
+        <script>
+            function close_banner(){
+                let x=document.getElementById("cookiebanner");
+                x.style.display="none";
+            }
+        </script>
+        <!-- END Close banner JavaScript -->
+
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -334,7 +357,7 @@
         <section class="best_3d_area">
             <div class="left_3d">
                 <div class="shap_slider_inner owl-carousel">
-                    <div class="item">
+                    <div class="item" style="color:black;">
                         <h4>“Quick and easy to use”</h4>
                         <p>We have used Twinkl to analyse twitter feed and build a marketing strategy for our products.</p>
                         <div class="media">
@@ -345,7 +368,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item" style="color:black;">
                         <h4>“Great addition to our promotion workflow"</h4>
                         <p>We used Twinkl to schedule tweets and identify hot trends</p>
                         <div class="media">
@@ -356,7 +379,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item" style="color:black;">
                         <h4>“Fast insights”</h4>
                         <p>We have used Dirk to analyse our customer feedback survey data in a structured manner.</p>
                         <div class="media">
@@ -561,6 +584,23 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         </footer>
         <!--================End Footer Area =================-->
         
+
+        <!--================Start Cookie Banner =================-->
+        <div class="cookie-consent-banner" id="cookiebanner">
+            <div class="cookie-consent-banner__inner">
+              <div class="cookie-consent-banner__copy">
+                <!-- <div class="cookie-consent-banner__header">THIS WEBSITE USES COOKIES</div> -->
+                <div class="cookie-consent-banner__description">We use cookies to personalise content. You consent to our cookies if you continue to use our website.
+                    <a href="#" class="cookie-consent-banner__cta" onclick="close_banner()">
+                        OK
+                      </a>
+                </div>
+              </div>
+            </div>
+        </div>
+          
+        <!--================End Cookie Banner =================-->
+
         
         
         
